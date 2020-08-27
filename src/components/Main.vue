@@ -1,24 +1,24 @@
 <template>
   <div>
-    <div class="navigation">
-      <input class="navigation__checkbox" id="navi-toggle" type="checkbox">
-      <label class="navigation__button" for="navi-toggle">
-        <span class="navigation__icon">&nbsp;</span>
-      </label>
-      <div class="navigation__background">&nbsp;</div>
-      <nav class="navigation__nav">
-        <ul class="navigation__list">
-          <li class="navigation__item"><a class="navigation__link" href="#"><span>01</span>About Natures</a></li>
-          <li class="navigation__item"><a class="navigation__link" href="#"><span>02</span>Your benifits</a></li>
-          <li class="navigation__item"><a class="navigation__link" href="#"><span>03</span>Popular tours</a></li>
-          <li class="navigation__item"><a class="navigation__link" href="#"><span>04</span>Stories</a></li>
-          <li class="navigation__item"><a class="navigation__link" href="#"><span>05</span>Book now</a></li>
-        </ul>
-      </nav>
-    </div>
+<!--    <div class="navigation">-->
+<!--      <input class="navigation__checkbox" id="navi-toggle" type="checkbox">-->
+<!--      <label class="navigation__button" for="navi-toggle">-->
+<!--        <span class="navigation__icon">&nbsp;</span>-->
+<!--      </label>-->
+<!--      <div class="navigation__background">&nbsp;</div>-->
+<!--      <nav class="navigation__nav">-->
+<!--        <ul class="navigation__list">-->
+<!--          <li class="navigation__item"><a class="navigation__link" href="#"><span>01</span>About Natures</a></li>-->
+<!--          <li class="navigation__item"><a class="navigation__link" href="#"><span>02</span>Your benifits</a></li>-->
+<!--          <li class="navigation__item"><a class="navigation__link" href="#"><span>03</span>Popular tours</a></li>-->
+<!--          <li class="navigation__item"><a class="navigation__link" href="#"><span>04</span>Stories</a></li>-->
+<!--          <li class="navigation__item"><a class="navigation__link" href="#"><span>05</span>Book now</a></li>-->
+<!--        </ul>-->
+<!--      </nav>-->
+<!--    </div>-->
     <header class="header">
       <div class="header__logo-box">
-        <img alt="Logo" class="header__logo" src="img/logo-white.png"/>
+        <img alt="Logo" class="header__logo" src="../assets/img/logo-white.png"/>
       </div>
       <div class="header__text-box">
         <h1 class="heading-primary">
@@ -60,20 +60,20 @@
               <img alt="Photo 1"
                    class="composition__photo composition__photo--p1"
                    sizes="(max-width: 56.25em) 2-vw, (max-width: 37.5em) 30vw, 18.75em"
-                   src="img/nat-1-large.jpg"
-                   srcset="img/nat-1.jpg 300w, img/nat-1-large.jpg 1000w">
+                   src="../assets/img/nat-1-large.jpg"
+                   srcset="../assets/img/nat-1.jpg 300w, ../assets/img/nat-1-large.jpg 1000w">
 
               <img alt="Photo 2"
                    class="composition__photo composition__photo--p2"
                    sizes="(max-width: 56.25em) 2-vw, (max-width: 37.5em) 30vw, 18.75em"
-                   src="img/nat-2-large.jpg"
-                   srcset="img/nat-2.jpg 300w, img/nat-2-large.jpg 1000w">
+                   src="../assets/img/nat-2-large.jpg"
+                   srcset="../assets/img/nat-2.jpg 300w, ../assets/img/nat-2-large.jpg 1000w">
 
               <img alt="Photo 3"
                    class="composition__photo composition__photo--p3"
                    sizes="(max-width: 56.25em) 2-vw, (max-width: 37.5em) 30vw, 18.75em"
-                   src="img/nat-3-large.jpg"
-                   srcset="img/nat-3.jpg 300w, img/nat-3-large.jpg 1000w">
+                   src="../assets/img/nat-3-large.jpg"
+                   srcset="../assets/img/nat-3.jpg 300w, ../assets/img/nat-3-large.jpg 1000w">
             </div>
           </div>
         </div>
@@ -237,8 +237,8 @@
             <section class="section-stories">
               <div class="bg-video">
                 <video class="bg-video__content" autoplay muted loop>
-                  <source src="img/video.mp4" type="video/mp4">
-                  <source src="img/video.webm" type="video/webm">
+                  <source src="../assets/img/video.mp4" type="video/mp4">
+                  <source src="../assets/img/video.webm" type="video/webm">
                   Your browser is not supported!
                 </video>
               </div>
@@ -251,7 +251,7 @@
               <div class="row">
                 <div class="story">
                   <figure class="story__shape">
-                    <img src="img/nat-8.jpg" alt="Person on a tour" class="story__img" />
+                    <img src="../assets/img/nat-8.jpg" alt="Person on a tour" class="story__img" />
                     <figcaption class="story__caption">
                       Mary Smith
                     </figcaption>
@@ -273,7 +273,7 @@
               <div class="row">
                 <div class="story">
                   <figure class="story__shape">
-                    <img src="img/nat-9.jpg" alt="Person on a tour" class="story__img" />
+                    <img src="../assets/img/nat-9.jpg" alt="Person on a tour" class="story__img" />
                     <figcaption class="story__caption">
                       Jack Wilson
                     </figcaption>
@@ -349,8 +349,8 @@
       <div class="footer__logo-box">
 
         <picture class="footer__logo">
-          <source media="(max-width:37.5em)" srcset="img/logo-green-small-1x.png 1x, img/logo-green-small-2x.png 2x">
-          <img alt="Full logo" src="img/logo-green-2x.png" srcset="img/logo-green-2x.png 1x, img/logo-green-2x.png 2x">
+          <source media="(max-width:37.5em)" srcset="../assets/img/logo-green-small-1x.png 1x, ../assets/img/logo-green-small-2x.png 2x">
+          <img alt="Full logo" src="../assets/img/logo-green-2x.png" srcset="../assets/img/logo-green-2x.png 1x, ../assets/img/logo-green-2x.png 2x">
         </picture>
       </div>
       <div class="row">
@@ -379,8 +379,8 @@
     <div class="popup" id="popup">
       <div class="popup__content">
         <div class="popup__left">
-          <img alt="Tour photo" class="popup__img" src="img/nat-8.jpg">
-          <img alt="Tour photo" class="popup__img" src="img/nat-9.jpg">
+          <img alt="Tour photo" class="popup__img" src="../assets/img/nat-8.jpg">
+          <img alt="Tour photo" class="popup__img" src="../assets/img/nat-9.jpg">
         </div>
         <div class="popup__right">
           <a class="popup__close" href="#section-tours">&times;</a>
