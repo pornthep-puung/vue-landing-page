@@ -367,11 +367,7 @@
         </div>
         <div class="col-1-of-2">
           <p class="footer__copyright">
-            Built my <a class="footer__link" href="#">Pornthep Phanbua</a> for his online course<a class="footer__link"
-                                                                                                   href="#">Advanced
-            CSS and Sass</a>. Copyright &copy; by Pornthep Phanbua. You are 100%allowed to use this webpage for both
-            personal and commercial use, but NOT to claim it as your own design. A credit tothe original author, Jonas
-            Schmedtmann, is of course highly appreciated!
+            Created by <a class="footer__link" href="https://www.linkedin.com/in/pornthep-phanbua/">Pornthep Phanbua</a> while learning the SASS course
           </p>
         </div>
       </div>
